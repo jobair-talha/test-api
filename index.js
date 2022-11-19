@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 // Use Router
-app.use(routes);
+// app.use(routes);
 
 app.get("/", (req, res) => {
   res.status(200).json({ message: "server running" });
